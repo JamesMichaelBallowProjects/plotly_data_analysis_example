@@ -20,7 +20,7 @@ def get_data():
 
 def main():
     # get data
-    diamondData = get_data()
+    diamondData = get_data().round(decimals=3)
 
     # get figure
     fig = make_subplots(
